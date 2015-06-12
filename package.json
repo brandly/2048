@@ -1,0 +1,20 @@
+{
+  "name": "2048",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "lodash": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel": "^5.1.13",
+    "mocha": "^2.2.1"
+  },
+  "scripts": {
+    "start": "node src/app",
+    "test": "mocha --compilers js:babel/register"
+  },
+  "author": "Matthew Brandly",
+  "license": "MIT"
+}
